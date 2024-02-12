@@ -7,6 +7,9 @@ function reverseString() {
     const inputString = document.getElementById('userInput').value;
 
     // Inverto la stringa
+    // .split serve per dividere i caratteri (forma un altro array)
+    // .reverse serve per invertire l'ordine dei caratteri
+    // .join serve unire gli elementi in un array (il contrario di .split)
     const reversedString = inputString.split('').reverse().join('');
 
     // stampo la stringa invertita
