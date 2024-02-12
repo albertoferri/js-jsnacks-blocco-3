@@ -11,10 +11,14 @@
 <body>
     <div class="container">
         <h1 class="text-center fw-bold my-5">REORDER</h1>
-        <div class="row w-50">
-            <input type="text" id="userInput" placeholder="Inserisci una parola">
-            <button class="btn btn-outline-success fw-bold mt-3" onclick="ordinaStringa()">RIORDINA</button>
-            <p id="risultato"></p>
+        <div class="row row-cols-1">
+            <div class="col-6 d-flex flex-column">
+                <input type="text" id="userInput" placeholder="Inserisci una parola" class="rounded-2 py-1 px-2">
+                <button class="btn btn-outline-success fw-bold mt-3" onclick="ordinaStringa()">RIORDINA</button>
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <p class="my-3 text-center text-bg-info rounded-2" id="risultato"></p>
+            </div>
         </div>
     </div>
     

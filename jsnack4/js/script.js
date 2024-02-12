@@ -8,6 +8,7 @@ function ordinaStringa(){
     // devo prendere il valore della stringa inserita
     const inputStringa = inputElement.value;
     const risultatoElement = document.getElementById("risultato");
+    risultatoElement.style.padding = "10px 20px";
 
     // ordino in ordine alfabetico la parola inserita tramite il metodo .sort
     // .sort serve per ordinare gli elementi di una lista
